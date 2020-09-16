@@ -1,0 +1,57 @@
+body {
+    background-color: cadetblue;
+}
+
+nav { 
+
+   font-size: x-large;
+    background-color: blanchedalmond;
+    width: 100%;
+    
+}
+
+a{ 
+    width: 20%;
+    color: black;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 180px;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
